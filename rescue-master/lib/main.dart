@@ -11,7 +11,6 @@ Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   BlocOverrides.runZoned(
-
         () {
       runApp(
 // entry point MaterialApp
